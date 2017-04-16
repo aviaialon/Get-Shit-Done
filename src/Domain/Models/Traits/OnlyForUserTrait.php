@@ -15,7 +15,6 @@ trait OnlyForUserTrait
     /**
      * Force append user id on queries
      *
-     * @param  bool $company_id
      * @return mixed
      */
     public function newQuery()
